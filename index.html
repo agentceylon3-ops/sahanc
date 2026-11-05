@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- AOS CSS Link -->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <title>Dileepa| sir</title>
+  <title>Sahan| sir</title>
   <link rel="stylesheet" href="style.css">
   <!-- Google Font (Sinhala and English) -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;600;700;800&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
@@ -2218,6 +2218,93 @@ html {
 }
 
 
+
+/* % AB */
+.achievement-section {
+    padding: 80px 20px;
+    background: #090d16;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.achievement-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.achievement-badge {
+    background: rgba(249, 115, 22, 0.2);
+    color: #f97316; /* Orange Accent */
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.achievement-header h2 {
+    font-size: 2.4rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.achievement-header p {
+    color: #cbd5e1;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+/* Stat Box Styling */
+.stat-box {
+    background: #1e293b;
+    border-radius: 20px;
+    padding: 45px 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    border: 2px solid rgba(249, 115, 22, 0.3);
+    display: inline-block;
+    min-width: 320px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.stat-box:hover {
+    transform: translateY(-5px);
+    border-color: #f97316;
+}
+
+.stat-number {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #f97316; /* Orange Counter Number */
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 1.25rem;
+    color: #e2e8f0;
+    font-weight: 600;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .achievement-header h2 {
+        font-size: 1.9rem;
+    }
+    .stat-number {
+        font-size: 4rem;
+    }
+    .stat-box {
+        min-width: 100%;
+        padding: 30px 20px;
+    }
+}
+
+
+
+
   </style>
 </head>
 <body>
@@ -2248,7 +2335,7 @@ html {
       </h1>
 
       <p class="description" data-aos="fade-up" data-aos-duration="1800">
-        සහන් ඒකනායක සමග අ.පො.ස. (සා.පෙළ) විද්‍යාව  — දශකයක් තුළ දිවයිනේ ප්‍රමුඛතම ප්‍රතිඵල ගොඩනැගූ පන්තිය.
+        ජාතික පාසල් ආචාර්ය සහන් ඒකනායක සමග අ.පො.ස. (සා.පෙළ) විද්‍යාව  — දශකයක් තුළ දිවයිනේ ප්‍රමුඛතම ප්‍රතිඵල ගොඩනැගූ පන්තිය.
       </p>
 
       <div class="btn-group">
@@ -2286,7 +2373,7 @@ html {
         <p class="ats-brand scroll-anim fade-up">Kingdom of Science</p>
 
         <p class="ats-bio scroll-anim fade-up">
-          Master the science syllabus with clarity, confidence, and guaranteed results. 
+          Government school teacher , Former international school teacher, Master the science syllabus with clarity, confidence, and guaranteed results. 
           වසර 15කට වැඩි අධ්‍යාපනික අත්දැකීම් සමඟින් සාමාන්‍ය පෙළ (O/L) විද්‍යාව (English Medium) විෂයය ඉතා සරලව හා සම්පූර්ණ ක්‍රමවේදයකට උගන්වනු ලබයි.
         </p>
 
@@ -2296,7 +2383,7 @@ html {
             <span class="ats-icon"></span>
             <div>
               <h4>Qualification</h4>
-              <p>B.Sc. (Hons) Graduate</p>
+              <p>B.Sc. (Hons) Graduate <br> Government school teacher with 15 years of Experience</p>
             </div>
           </div>
 
@@ -2304,7 +2391,7 @@ html {
             <span class="ats-icon"></span>
             <div>
               <h4>Subject & Medium</h4>
-              <p>O/L Science (English Medium)</p>
+              <p>O/L Science (English Medium and Sinhala Medium)</p>
             </div>
           </div>
 
@@ -2321,6 +2408,25 @@ html {
 
     </div>
   </div>
+</section>
+
+
+<!-- A/B Percentage Achievement Section -->
+<section class="achievement-section animate-on-scroll">
+    <div class="achievement-container">
+        
+        <div class="achievement-header">
+            <span class="achievement-badge">වාර්තාගත ප්‍රතිඵල</span>
+            <h2>A / B සාමාර්ථ ප්‍රතිශතය</h2>
+            <p>විෂය සඳහා සිසුන් ලබාගත් විශිෂ්ට සාර්ථකත්වය</p>
+        </div>
+
+        <div class="stat-box">
+            <div class="stat-number"><span id="counter" data-target="70">0</span>%</div>
+            <p class="stat-label">සම්පූර්ණ A සහ B සාමාර්ථ ප්‍රතිශතය</p>
+        </div>
+
+    </div>
 </section>
 
 
@@ -2370,7 +2476,7 @@ html {
 
     <!-- Tab Buttons -->
     <div class="tt-tabs">
-      <button class="tt-tab-btn active" onclick="filterSchedule('sinhala', this)">සිංහල මාධ්‍යය</button>
+      <button class="tt-tab-btn active" onclick="filterSchedule('sinhala', this)"> සිංහල මාධ්‍යය </button>
       <button class="tt-tab-btn" onclick="filterSchedule('english', this)">English Medium</button>
     </div>
 
@@ -2417,35 +2523,6 @@ html {
 
       <!-- ================= ENGLISH MEDIUM INSTITUTES ================= -->
 
-      <!-- Card 4: Mirigama Center (English Medium - Hidden by default) -->
-      <div class="tt-card" data-medium="english" style="display: none;">
-        <div class="tt-card-header">
-          <span class="tt-grade">Physical Class</span>
-          <span class="tt-medium-badge en">English Medium</span>
-        </div>
-        <h3> OPERA ආයතනය</h3>
-        <p class="tt-location">Kingdom of Science | Sahan Sir</p>
-        
-        <div class="tt-class-list">
-          
-          <div class="tt-time-info">
-            <strong>10 ශ්‍රේණිය:</strong> බදාදා ප.ව. 5.00 - ප.ව. 7.30
-          </div>
-          <div class="tt-time-info">
-            <strong>9 ශ්‍රේණිය:</strong> සදුදා ප.ව. 3.15 - ප.ව. 5.15
-          </div>
-          <div class="tt-time-info">
-            <strong>8 ශ්‍රේණිය:</strong> අගහරුවාදා ප.ව. 3.15 - ප.ව. 5.15
-          </div>
-          <div class="tt-time-info">
-            <strong>7 ශ්‍රේණිය:</strong> බ්‍රහස්පතින්දා ප.ව. 3.15 - ප.ව. 5.15
-          </div>
-          <div class="tt-time-info">
-            <strong>6 ශ්‍රේණිය:</strong> බදාදා ප.ව. 3.15 - ප.ව. 5.15
-          </div>
-        </div>
-      </div>
-
       <!-- Card 5: Giriulla / Polpithigama (English Medium - Hidden by default) -->
       <div class="tt-card" data-medium="english" style="display: none;">
         <div class="tt-card-header">
@@ -2476,6 +2553,38 @@ html {
           </div>
         </div>
       </div>
+
+
+      <!-- Card 4: Mirigama Center (English Medium - Hidden by default) -->
+      <div class="tt-card" data-medium="english" style="display: none;">
+        <div class="tt-card-header">
+          <span class="tt-grade">Physical Class</span>
+          <span class="tt-medium-badge en">English Medium</span>
+        </div>
+        <h3> OPERA ආයතනය</h3>
+        <p class="tt-location">Kingdom of Science | Sahan Sir</p>
+        
+        <div class="tt-class-list">
+          
+          <div class="tt-time-info">
+            <strong>10 ශ්‍රේණිය:</strong> බදාදා ප.ව. 5.00 - ප.ව. 7.30
+          </div>
+          <div class="tt-time-info">
+            <strong>9 ශ්‍රේණිය:</strong> සදුදා ප.ව. 3.15 - ප.ව. 5.15
+          </div>
+          <div class="tt-time-info">
+            <strong>8 ශ්‍රේණිය:</strong> අගහරුවාදා ප.ව. 3.15 - ප.ව. 5.15
+          </div>
+          <div class="tt-time-info">
+            <strong>7 ශ්‍රේණිය:</strong> බ්‍රහස්පතින්දා ප.ව. 3.15 - ප.ව. 5.15
+          </div>
+          <div class="tt-time-info">
+            <strong>6 ශ්‍රේණිය:</strong> බදාදා ප.ව. 3.15 - ප.ව. 5.15
+          </div>
+        </div>
+      </div>
+
+      
 
       <!-- Card 6: Online Classes (English Medium - Hidden by default) -->
       <div class="tt-card" data-medium="english" style="display: none;">
@@ -2857,9 +2966,9 @@ function sendToWhatsApp(event) {
   // WhatsApp එකට යැවෙන පණිවිඩයේ හැඩය (Template)
   const message = `*새 නව ලියාපදිංචි වීමක් (Student Registration)*%0a` +
                   `----------------------------------%0a` +
-                  `👤 *නම:* ${studentName}%0a` +
-                  `📚 *ශ්‍රේණිය:* ${studentGrade}%0a` +
-                  `📍 *ක්‍රමය:* ${attendanceMode}%0a` +
+                  ` *නම:* ${studentName}%0a` +
+                  ` *ශ්‍රේණිය:* ${studentGrade}%0a` +
+                  ` *ක්‍රමය:* ${attendanceMode}%0a` +
                   `----------------------------------%0a` +
                   `Kingdom of Science - Sahan Ekanayake Sir`;
 
@@ -2868,6 +2977,43 @@ function sendToWhatsApp(event) {
   window.open(whatsappURL, '_blank');
 }
 
+// AB presentage 
+document.addEventListener("DOMContentLoaded", function () {
+    const counter = document.getElementById('counter');
+    let animated = false;
+
+    function runCounter() {
+        const target = +counter.getAttribute('data-target');
+        let count = 0;
+        const speed = 25; // ගණන් වැඩි වීමේ වේගය (අඩුවන විට වේගය වැඩි වේ)
+
+        const updateCount = () => {
+            if (count < target) {
+                count++;
+                counter.innerText = count + "+";
+                setTimeout(updateCount, speed);
+            } else {
+                counter.innerText = target + "+";
+            }
+        };
+        updateCount();
+    }
+
+    // Screen එකට පෙනුණු සැනින් Animation එක ක්‍රියාත්මක වීමට Intersection Observer පාවිච්චි කරයි
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !animated) {
+                runCounter();
+                animated = true;
+            }
+        });
+    }, { threshold: 0.5 });
+
+    const section = document.querySelector('.achievement-section');
+    if (section) {
+        observer.observe(section);
+    }
+});
 
  </script>
 
